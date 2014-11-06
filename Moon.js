@@ -39,7 +39,7 @@ ellipse(500+Math.cos(timing3*2*PI)*300 + Math.cos(timing2*4*PI)*70,
         10,                                  
         10);   
 //달3
-fill(0);
+fill(255);
 ellipse(500+Math.cos(timing3*2*PI)*300 + Math.cos(timing4*2*PI)*80,                         
         500+Math.sin(timing3*2*PI)*300 + Math.sin(timing4*2*PI)*80, 
         30,                                  
