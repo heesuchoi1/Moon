@@ -115,3 +115,12 @@ noFill();
 stroke(255);
 ellipse(width/2,height/2,750,750);
 }
+
+function mousePressed(){
+	var d = dist(mouseX,mouseY, 360,200);
+	if(d<100){
+		r=random(255);
+		g=random(255);
+		b=random(255);
+	}
+}
