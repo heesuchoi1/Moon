@@ -18,7 +18,7 @@ background(bg);
 strokeWeight(2);
     noStroke();
     fill(r, g, b, 127);
-    ellipse(21, 245, 210, 210);
+    ellipse(500, 500, 400,400);
 
 fill(211,53,53);
 ellipse(width/2,height/2,400,400);
