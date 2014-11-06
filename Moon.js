@@ -3,13 +3,21 @@ var bg;
 function setup(){
 createCanvas(1000,1000);
 bg = loadImage("bg.jpg");
-background(255);
+	r = random(255);
+    g = random(255);
+    b = random(255);
+
 ellipse(250,250,50,50);
 }
 
 function draw(){
 noStroke();
 background(bg);
+
+strokeWeight(2);
+    noStroke();
+    fill(r, g, b, 127);
+    ellipse(210, 245, 210, 210);
 
 fill(211,53,53);
 ellipse(width/2,height/2,400,400);
@@ -51,6 +59,44 @@ var timing = (new Date()%duration)/duration;
 
 fill(5,130,173);
 ellipse(500 + Math.cos(timing3*2*PI)*300,500 + Math.sin(timing3*2*PI)*300 ,100,100); 
+	
+
+	//별//
+	fill(Math.random()*255,Math.random()*255,Math.random()*255,100);
+    var y;
+    y=300;
+     
+    ellipse(20,180,10,10);
+    ellipse(120,80,15,15);
+    ellipse(190,50,5,5);
+    ellipse(300,150,10,10);
+    ellipse(360,300,5,5);
+    ellipse(380,400,10,10);
+    ellipse(50,90,15,15);
+    ellipse(255,40,5,5);
+    ellipse(115,75,10,10);
+    ellipse(345,55,5,5);
+    ellipse(275,85,10,10);
+    ellipse(375,100,15,15);
+    ellipse(220,110,5,5);
+    ellipse(105,115,5,5);
+    ellipse(90,150,10,10);
+    ellipse(35,165,15,15);
+    ellipse(75,210,5,5);
+    ellipse(30,220,10,10);
+    ellipse(60,250,7,7);
+    ellipse(25,270,5,5);
+    ellipse(290,145,5,5);
+    ellipse(365,140,10,10);
+    ellipse(385,200,7,7);
+    ellipse(390,270,15,15);
+    ellipse(340,300,10,10);
+    ellipse(350,365,3,3);
+    ellipse(280,395,5,5);
+    ellipse(170,370,10,10);
+    ellipse(115,355,6,6);
+    ellipse(60,335,15,15);
+    ellipse(80,280,5,5);
 
 drawCircle();
 drawCircle1();
