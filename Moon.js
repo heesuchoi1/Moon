@@ -56,6 +56,6 @@ ellipse(500 + Math.cos(timing3*2*PI)*300,500 + Math.sin(timing3*2*PI)*300 ,100,1
 
 function drawCircle(){
 noFill();
-stroke(0);
+stroke(255);
 ellipse(width/2,height/2,600,600);
 }
