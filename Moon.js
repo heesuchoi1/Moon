@@ -15,10 +15,7 @@ function draw(){
 noStroke();
 background(bg);
 
-strokeWeight(2);
-    noStroke();
-    fill(r, g, b, 127);
-    ellipse(500, 500, 400,400);
+
 
 fill(211,53,53);
 ellipse(width/2,height/2,400,400);
@@ -32,6 +29,10 @@ var timing3 = (new Date()%duration3)/duration3;
 var duration4 = 1000;
 var timing4 = (new Date()%duration4)/duration4;
 
+strokeWeight(2);
+    noStroke();
+    fill(r, g, b, 127);
+    ellipse(500, 500, 400,400);
 //달1
 /*fill(200,200,200);
 ellipse(250 + Math.cos(timing*2*PI)*50,                         
