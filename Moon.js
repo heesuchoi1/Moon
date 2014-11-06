@@ -1,4 +1,5 @@
 var bg;
+var r, g, b;
 
 function setup(){
 createCanvas(1000,1000);
@@ -17,7 +18,7 @@ background(bg);
 strokeWeight(2);
     noStroke();
     fill(r, g, b, 127);
-    ellipse(210, 245, 210, 210);
+    ellipse(21, 245, 210, 210);
 
 fill(211,53,53);
 ellipse(width/2,height/2,400,400);
@@ -77,22 +78,22 @@ ellipse(500 + Math.cos(timing3*2*PI)*300,500 + Math.sin(timing3*2*PI)*300 ,100,1
     ellipse(115,75,10,10);
     ellipse(345,55,5,5);
     ellipse(275,85,10,10);
-    ellipse(375,100,15,15);
+    ellipse(655,100,15,15);
     ellipse(220,110,5,5);
-    ellipse(105,115,5,5);
-    ellipse(90,150,10,10);
+    ellipse(105,615,5,5);
+    ellipse(900,150,10,10);
     ellipse(35,165,15,15);
     ellipse(75,210,5,5);
-    ellipse(30,220,10,10);
+    ellipse(30,700,10,10);
     ellipse(60,250,7,7);
     ellipse(25,270,5,5);
-    ellipse(290,145,5,5);
+    ellipse(290,845,5,5);
     ellipse(365,140,10,10);
-    ellipse(385,200,7,7);
+    ellipse(955,200,7,7);
     ellipse(390,270,15,15);
     ellipse(340,300,10,10);
     ellipse(350,365,3,3);
-    ellipse(280,395,5,5);
+    ellipse(900,395,5,5);
     ellipse(170,370,10,10);
     ellipse(115,355,6,6);
     ellipse(60,335,15,15);
