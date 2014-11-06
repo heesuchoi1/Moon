@@ -71,7 +71,7 @@ ellipse(500 + Math.cos(timing3*2*PI)*300,500 + Math.sin(timing3*2*PI)*300 ,100,1
     ellipse(120,80,15,15);
     ellipse(190,50,5,5);
     ellipse(300,150,10,10);
-    ellipse(360,300,5,5);
+    ellipse(600,300,5,5);
     ellipse(380,400,10,10);
     ellipse(50,90,15,15);
     ellipse(255,40,5,5);
@@ -85,8 +85,8 @@ ellipse(500 + Math.cos(timing3*2*PI)*300,500 + Math.sin(timing3*2*PI)*300 ,100,1
     ellipse(35,165,15,15);
     ellipse(75,210,5,5);
     ellipse(30,700,10,10);
-    ellipse(60,250,7,7);
-    ellipse(25,270,5,5);
+    ellipse(800,250,7,7);
+    ellipse(25,800,5,5);
     ellipse(290,845,5,5);
     ellipse(365,140,10,10);
     ellipse(955,200,7,7);
