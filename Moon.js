@@ -53,11 +53,17 @@ fill(5,130,173);
 ellipse(500 + Math.cos(timing3*2*PI)*300,500 + Math.sin(timing3*2*PI)*300 ,100,100); 
 
 drawCircle();
-
+drawCircle1();
 }
 
 function drawCircle(){
 noFill();
 stroke(255);
 ellipse(width/2,height/2,600,600);
+}
+
+function drawCircle1(){
+noFill();
+stroke(255);
+ellipse(width/2,height/2,750,750);
 }
