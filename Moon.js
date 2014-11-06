@@ -14,7 +14,7 @@ background(bg);
 fill(211,53,53);
 ellipse(width/2,height/2,400,400);
 
-
+drawCircle();
 
 
 var duration3 = 3000;
@@ -52,4 +52,10 @@ var timing = (new Date()%duration)/duration;
 fill(5,130,173);
 ellipse(500 + Math.cos(timing3*2*PI)*300,500 + Math.sin(timing3*2*PI)*300 ,100,100); 
 
+}
+
+function drawCircle(){
+noFill();
+stroke(0);
+ellipse(width/2,height/2,600,600);
 }
